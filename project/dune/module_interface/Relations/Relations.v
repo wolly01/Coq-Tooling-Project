@@ -1,0 +1,1 @@
+Definition Rel_Combinator := (fun A B => A->B).
