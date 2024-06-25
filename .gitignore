@@ -1,1 +1,3 @@
 project/dune/_build
+scratch
+project/dune/debug
