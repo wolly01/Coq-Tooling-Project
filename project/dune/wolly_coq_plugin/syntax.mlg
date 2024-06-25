@@ -1,0 +1,5 @@
+DECLARE PLUGIN "wolly_coq_plugin.plugin"
+
+VERNAC COMMAND EXTEND CallToC CLASSIFIED AS QUERY
+| [ "Plugin_test" ] -> { Feedback.msg_notice Pp.(str "Hello Plugin") }
+END

@@ -1,0 +1,7 @@
+(library
+ (name "plugin")
+ (public_name "wolly_coq_plugin.plugin")
+ (flags :standard -warn-error -27)
+ (libraries coq-core.vernac))
+
+  (coq.pp (modules syntax))
