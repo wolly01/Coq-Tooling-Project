@@ -1,0 +1,4 @@
+(coq.theory
+ (name TYPE_OF_TYPEOID)
+ (theories TYPE TYPEOID)
+)
